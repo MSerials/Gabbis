@@ -258,4 +258,5 @@ void CMainFrame::OnButtonFreshwinFun()
 {
 	// TODO:  在此添加命令处理程序代码
 	//
+	m_FunDock.ShowPane(TRUE, FALSE, TRUE);
 }
