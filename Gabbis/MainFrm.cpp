@@ -80,6 +80,44 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	// 基于持久值设置视觉管理器和样式
 	OnApplicationLook(theApp.m_nAppLook);
 
+
+
+	//my init
+	if (!m_FunDock.Create(_T("控制面板"), this, CRect(0, 0, 400, 1080), TRUE, 1001, WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | CBRS_LEFT | CBRS_FLOAT_MULTI
+		, AFX_CBRS_REGULAR_TABS, AFX_CBRS_CLOSE | AFX_CBRS_FLOAT
+		))
+	{
+		TRACE0("Failed to create LeftPane\n");
+		return -1;
+	}
+
+	m_FunDock.LoadState(FALSE);
+	m_FunDock.SetAutoHideMode(FALSE, NULL, NULL, NULL);
+	m_FunDock.EnableDocking(CBRS_ALIGN_RIGHT | CBRS_ALIGN_LEFT);
+	DockPane(&m_FunDock);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	return 0;
 }
 
@@ -219,4 +257,5 @@ void CMainFrame::OnUpdateFilePrintPreview(CCmdUI* pCmdUI)
 void CMainFrame::OnButtonFreshwinFun()
 {
 	// TODO:  在此添加命令处理程序代码
+	//
 }

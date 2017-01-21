@@ -14,6 +14,8 @@
 
 #pragma once
 
+#include "comma.h"
+
 class CMainFrame : public CFrameWndEx
 {
 	
@@ -53,8 +55,12 @@ protected:
 	afx_msg void OnFilePrint();
 	afx_msg void OnFilePrintPreview();
 	afx_msg void OnUpdateFilePrintPreview(CCmdUI* pCmdUI);
+	afx_msg void OnButtonFreshwinFun();
 	DECLARE_MESSAGE_MAP()
 
+private:
+	CFunAssembly m_FunDock;
+	
 };
 
 
