@@ -101,6 +101,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="comma.h" />
     <ClInclude Include="FunAssembly.h" />
     <ClInclude Include="Gabbis.h" />
     <ClInclude Include="GabbisDoc.h" />
