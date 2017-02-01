@@ -164,6 +164,7 @@ class CAboutDlg : public CDialogEx
 public:
 	CAboutDlg();
 
+
 // 对话框数据
 	enum { IDD = IDD_ABOUTBOX };
 
@@ -172,6 +173,7 @@ protected:
 
 // 实现
 protected:
+
 	DECLARE_MESSAGE_MAP()
 };
 
@@ -217,3 +219,4 @@ void CGabbisApp::SaveCustomState()
 
 
 
+//this is a demo for my synthesis

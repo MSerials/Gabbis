@@ -45,6 +45,9 @@
     <ClInclude Include="comma.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ThresholdDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Gabbis.cpp">
@@ -63,6 +66,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="FunAssembly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThresholdDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

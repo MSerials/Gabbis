@@ -7,5 +7,6 @@
 #define _AFX_COMMARESOURCE_20170201_
 
 #include "FunAssembly.h"
+#include "thresholdDlg.h"
 
 #endif 

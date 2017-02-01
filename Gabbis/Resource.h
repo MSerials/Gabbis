@@ -35,8 +35,8 @@
 #define ID_VIEW_APPLOOK_WINDOWS_7       219
 #define IDS_EDIT_MENU                   306
 #define IDR_RIBBON                      307
+#define IDD_THRESHOLDDLG                310
 #define ID_WRITE_PASTEASHYPERLINK       32770
-#define ID_BUTTON_FRESHWIN              32771
 #define ID_BUTTON_FRESHWIN_FUN          32771
 
 // Next default values for new objects
@@ -46,6 +46,6 @@
 #define _APS_NEXT_RESOURCE_VALUE        310
 #define _APS_NEXT_COMMAND_VALUE         32772
 #define _APS_NEXT_CONTROL_VALUE         1000
-#define _APS_NEXT_SYMED_VALUE           310
+#define _APS_NEXT_SYMED_VALUE           311
 #endif
 #endif
